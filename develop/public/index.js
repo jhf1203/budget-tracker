@@ -121,10 +121,12 @@ function sendTransaction(isAdding) {
       "Content-Type": "application/json"
     }
   })
-  .then(response => {    
+  .then(response => {  
+    console.log("res", response)  
     return response.json();
   })
   .then(data => {
+    console.log("data", data)
     if (data.errors) {
       errorEl.textContent = "Missing Information";
     }
