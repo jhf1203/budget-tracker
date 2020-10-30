@@ -1,63 +1,59 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# budget tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+![](https://img.shields.io/badge/License-MIT-yellowgreen)
+      
+## Table Of Contents
+1.  [Description](#description)
+2.  [Installation](#installation) 
+3.  [Usage](#usage)
+4.  [Collaborating](#collaborating)
+5.  [Contact](#contact)
+      
+_________________________________
+  
+### Description
+      
+This is a simple application that allows the user to easily enter debits and credits to an account of their choosing.  
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+The biggest appeal for this application to the user is the fact that it will still record and save data even when offline.  That way should someone be traveling or otherwise in an area with low or zero signal, they're still able to log and track their financial accounts.
+      
+_________________________________
+  
+### Instructions
+  
+[Deployed Application](https://thawing-woodland-70441.herokuapp.com/)
 
-Offline Functionality:
+No installation is required, as this app is served through Heroku.  Simply click the link above and begin!
+  
+_________________________________
+  
+### Usage
 
-  * Enter deposits offline
+#### Demo
+![](./public/assets/demo.gif)
+  
+#### Instructions
 
-  * Enter expenses offline
+To use this application, simply enter a description for the debit/credit to your account, as well as the amount that the value should be.  As you select to either add funds or subtract funds, you'll see your total balance change at the top of the screen, as well as a visualization of your account history in the form of a line graph.
 
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+This application has been specially designed to work even though you may not be online.  Although your information is stored in our database, we have the ability to save each record temporarily should you have no internet, and then post it to our database once you are in an area that has better coverage.
+  
+_________________________________
+  
+### Collaborating
+  
+Got an idea?  A bug to report?  Or even a thought on how the application could run more efficiently?  Log it [here](https://github.com/jhf1203/budget-tracker/issues) as an issue, and we'll talk about it!
+  
+_________________________________
+  
+### Contact Me
+  
+#### Jim Faulkner
+- [E-mail](mailto:jhf1203@gmail.com)
+- [Github](jhf1203)
+  
+_________________________________
+  
+### License
+  
+This application is [licensed](https://opensource.org/licenses/MIT) under the MIT License
